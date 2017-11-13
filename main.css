@@ -1,0 +1,62 @@
+/*pasto de la cancha de futbol*/
+.pasto {
+  width: 1350px;
+  height: 650px;
+  background-color: #139F44;
+  position: absolute;
+}
+/*{inea de la cancha}*/
+.line{
+	width: 1300px;
+	height: 590px;
+	border: 2px solid white;
+	margin-top: 25px;
+	margin-left: 25px;
+	position: relative;
+}
+/*porterias*/
+.porteria {
+	width: 120px;
+  height: 230px;
+	border: 2px solid white;
+	display: inline-block;
+	position: relative;
+	top: 160px;
+}
+.uno{
+	margin-left: -2px;
+}
+.dos{
+	margin-left: 1053px;
+	position: absolute;
+}
+.circulo{
+	width: 200px;
+	height: 200px;
+	border: 2px solid white;
+	display: inline-block;
+	position: relative;
+	margin-left: 400px;
+	top: 130px;
+	border-radius: 100%;
+}
+.balon{
+	width: 25px;
+	height: 25px;
+	border: 2px solid black;
+	background-color: #F0EAEA;
+	border-radius: 100%;
+	position: absolute;
+}
+.primero{
+	left: 110px;
+	top:180px;
+}
+.segundo{
+	left: 400px;
+	top: 60px;
+}
+.tercero{
+	left: 100px;
+	top: 280px;
+}
